@@ -1,0 +1,382 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Teapot",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                1.5127172470092773,
+                -3.624774694442749,
+                -0.8513089418411255
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Teapot clay",
+            "normalTexture" : {
+                "index" : 0,
+                "scale" : 0.2000001072883606
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0,
+                "metallicRoughnessTexture" : {
+                    "index" : 2
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Cup_ceramic",
+            "normalTexture" : {
+                "index" : 3,
+                "scale" : 0.20000001788139343
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 4
+                },
+                "metallicFactor" : 0,
+                "metallicRoughnessTexture" : {
+                    "index" : 5
+                }
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Rock",
+            "normalTexture" : {
+                "index" : 6,
+                "scale" : 0.5000010132789612
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 7
+                },
+                "metallicFactor" : 0,
+                "metallicRoughnessTexture" : {
+                    "index" : 8
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Teapot.006",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9,
+                        "TEXCOORD_0" : 10
+                    },
+                    "indices" : 11,
+                    "material" : 2
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        },
+        {
+            "sampler" : 0,
+            "source" : 3
+        },
+        {
+            "sampler" : 0,
+            "source" : 4
+        },
+        {
+            "sampler" : 0,
+            "source" : 5
+        },
+        {
+            "sampler" : 0,
+            "source" : 6
+        },
+        {
+            "sampler" : 0,
+            "source" : 7
+        },
+        {
+            "sampler" : 0,
+            "source" : 8
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Teapot_normal",
+            "uri" : "Teapot_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Teapot_color",
+            "uri" : "Teapot_color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Teapot_roughness",
+            "uri" : "Teapot_roughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Cup_normal",
+            "uri" : "Cup_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Cup_color",
+            "uri" : "Cup_color.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Cup_roughness",
+            "uri" : "Cup_roughness.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Rock026_12K_NormalGL",
+            "uri" : "Rock026_12K_NormalGL.jpg"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "Marble025_8K_Color",
+            "uri" : "Marble025_8K_Color.jpg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Rock026_12K_Roughness",
+            "uri" : "Rock026_12K_Roughness.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 9292,
+            "max" : [
+                9.970096588134766,
+                2.925650119781494,
+                -17.357105255126953
+            ],
+            "min" : [
+                -5.350889205932617,
+                -10.203893661499023,
+                -25.42005157470703
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 9292,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 9292,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 52104,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1438,
+            "max" : [
+                -11.11007022857666,
+                10.76494312286377,
+                -14.760995864868164
+            ],
+            "min" : [
+                -18.228538513183594,
+                3.6607370376586914,
+                -21.734966278076172
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1438,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 1438,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 7440,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 5076,
+            "max" : [
+                33.4412841796875,
+                22.57317543029785,
+                0.16663575172424316
+            ],
+            "min" : [
+                -33.19761276245117,
+                -20.30587387084961,
+                -17.56403923034668
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 5076,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5126,
+            "count" : 5076,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 11,
+            "componentType" : 5123,
+            "count" : 28626,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 111504,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 111504,
+            "byteOffset" : 111504
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 74336,
+            "byteOffset" : 223008
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 104208,
+            "byteOffset" : 297344
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17256,
+            "byteOffset" : 401552
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 17256,
+            "byteOffset" : 418808
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11504,
+            "byteOffset" : 436064
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14880,
+            "byteOffset" : 447568
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 60912,
+            "byteOffset" : 462448
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 60912,
+            "byteOffset" : 523360
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 40608,
+            "byteOffset" : 584272
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 57252,
+            "byteOffset" : 624880
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 682132,
+            "uri" : "Tea scene.bin"
+        }
+    ]
+}
